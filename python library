@@ -1,0 +1,15 @@
+import math, random
+
+random_integer = random.randint(1,100)
+
+square_root = math.sqrt(random_integer)
+
+
+if square_root <= 3:
+    print('super low number mannnn')
+elif square_root > 3 and square_root <= 7:
+    print('half way there!!')
+else:
+    print('pretty high number')
+ 
+print(square_root)
